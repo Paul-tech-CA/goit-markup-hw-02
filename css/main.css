@@ -1,0 +1,38 @@
+
+/*  <!-- Projects colors-->
+black-color #212121;
+main-color #757575;
+background-color main #E5E5E5;
+background-color primary #F5F4FA;
+background-color header #FFFFFF;
+background-color footer #2F303A;
+footer-color rgba(255, 255, 255, 0.6);
+accent-color #2196F3;
+white-colr #ffffff;*/
+
+
+
+.list {
+    list-style: none;
+    }
+
+/* Hero */
+.hero-title {
+    color: var(--title-text-color)
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color)
+}
+
+.section h3 {
+    color: var(--title-text-color)
+}
+
+/* Button */
+
+.button {
+    color: var(--background-color-header);
+    background-color: var(--accent-color);
+}
