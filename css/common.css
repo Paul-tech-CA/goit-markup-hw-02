@@ -13,11 +13,14 @@
 body {
     background-color: var(--background-color-main)
     color:  var(--primary-text-color);
+    
+    font-famili: Roboto, sans-serif;
     }
    
     /* Logotype */
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
         }
 
 .logo-studio {
