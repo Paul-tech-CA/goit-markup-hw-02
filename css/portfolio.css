@@ -5,23 +5,20 @@ body {
 
 
 
-
-
 /* Button */
 
 .button.secondary {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
-
-    
+    letter-spacing: 0.03em;   
 }
 
 .link-filter:hover,
 .link-filter:focus {
     color: var(--background-color-header);
     background-color: var(--accent-color);
+}
 
 .examples a {
     color: inherit;   
