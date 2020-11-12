@@ -12,27 +12,73 @@ white-colr #ffffff;*/
 
 
 
-.list {
-    list-style: none;
-    }
 
 /* Hero */
 .hero-title {
     color: var(--title-text-color)
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Section */
 .section-title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .section h3 {
     color: var(--title-text-color)
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
+.section p {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.section .team {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.section .section-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.background {
+    background-color: var(--background-color-primary);
+}
+
 
 /* Button */
 
-.button {
+.button.primary {
     color: var(--background-color-header);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    
 }
+
